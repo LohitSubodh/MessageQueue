@@ -29,5 +29,6 @@ public class Main {
         queue.publish(topic1, new Message("m5"));
 
      //   queue.resetOffset(topic1, sub1, 0);
+        System.out.println("Completed all tasks");
         }
     }
